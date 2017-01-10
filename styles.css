@@ -1,0 +1,40 @@
+body {
+  margin: 12px;
+  background-image: url('onpoint.jpg');
+}
+.board {
+  background-color: #fff;
+  border: 1px solid #000;
+  display: inline-block;
+}
+.row {
+  height: 12px;
+}
+.square {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+.snake {
+  background-color: #008080;
+  border-radius: -5px;
+}
+.head-start {
+  border-radius: 12px;
+}
+.head-left {
+  border-radius: 12px 0 0 12px;
+}
+.head-right {
+  border-radius: 0 12px 12px 0;
+}
+.head-up {
+  border-radius: 12px 12px 0 0;
+}
+.head-down {
+  border-radius: 0 0 12px 12px;
+}
+.food {
+  background-color: red;
+  border-radius: 12px;
+}
